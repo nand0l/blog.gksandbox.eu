@@ -1,0 +1,40 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "1f57b1f6-c15a-411e-9516-f050e69d2628",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Sat, 20 Dec 2025 11:38:31 GMT",
+      "content-type": "application/json",
+      "content-length": "2646",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "1f57b1f6-c15a-411e-9516-f050e69d2628",
+      "x-amzn-bedrock-invocation-latency": "2975",
+      "x-amzn-bedrock-cache-write-input-token-count": "0",
+      "x-amzn-bedrock-cache-read-input-token-count": "0",
+      "x-amzn-bedrock-output-token-count": "512",
+      "x-amzn-bedrock-input-token-count": "53"
+    },
+    "RetryAttempts": 0
+  },
+  "contentType": "application/json",
+  "body": {
+    "output": {
+      "message": {
+        "content": [
+          {
+            "text": "### **Quantum Computing Explained in Simple Terms**\n\nImagine you're playing a puzzle game where you have to guess the right combination to unlock a treasure chest. In a **normal computer**, you can only try one combination at a time \u2014 like trying \"1234,\" then \"1235,\" and so on, until you find the right one. This is called **binary computing**, and it\u2019s based on **bits** \u2014 the basic building blocks of information, which can only be **0** or **1**.\n\nNow, let\u2019s imagine a **quantum computer**. Instead of trying one combination at a time, it can try **many combinations at once** \u2014 kind of like shaking the puzzle box and having all the pieces fall into place simultaneously. That\u2019s the magic of **quantum computing**.\n\n---\n\n### **The Core Idea: Qubits**\n\nIn a normal computer, you use **bits** (0 or 1).  \nIn a quantum computer, you use **qubits**.\n\nA **qubit** is like a spinning coin. While it\u2019s spinning, it\u2019s **both heads and tails at the same time**. Only when it lands does it become either heads or tails.\n\nThis means a qubit can be in **multiple states at once**. This property is called **superposition**.\n\n---\n\n### **Another Trick: Entanglement**\n\nQubits can also be **linked together** in a special way called **entanglement**.  \nIf two qubits are entangled, the state of one instantly affects the state of the other \u2014 no matter how far apart they are.  \n\nThink of it like two dice that always roll matching numbers, even if one is in New York and the other in Tokyo. This connection lets quantum computers process information in a deeply connected way.\n\n---\n\n### **So How Is This Useful?**\n\nBecause of **superposition** and **entanglement**, quantum computers can **explore many possible solutions at the same time**. This gives them a huge advantage for certain types of problems, like:\n\n1. **Cracking complex codes** (like those used in online security)\n2. **Designing new medicines** (by simulating molecules)\n3. **Optimizing logistics** (like the best route for delivery trucks)\n4. **Creating better artificial intelligence**\n\n---\n\n### **But It\u2019s Not a Magic Box**\n\nQuantum computers aren\u2019t better at **everything**. They\u2019re especially powerful for **specific, complex problems** that involve lots of data and possibilities. For everyday tasks like watching videos or sending emails, normal computers are still just fine \u2014 and will remain so"
+          }
+        ],
+        "role": "assistant"
+      }
+    },
+    "stopReason": "max_tokens",
+    "usage": {
+      "inputTokens": 53,
+      "outputTokens": 512,
+      "totalTokens": 565,
+      "cacheReadInputTokenCount": 0,
+      "cacheWriteInputTokenCount": 0
+    }
+  }
+}

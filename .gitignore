@@ -18,3 +18,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Amplify build cache
+.npm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.streamlit/secrets.toml

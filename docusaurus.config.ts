@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'GK-demo',
+  title: 'gksandbox',
   tagline: 'Built with Docusaurus',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://nlu.gk-demo.net',
+  url: 'https://blog.gksandbox.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -61,7 +61,7 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'GK-demo',
+      title: 'gksandbox',
       logo: {
         alt: 'My Site Logo',
         src: 'img/android-chrome-192x192.png',

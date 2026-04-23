@@ -23,3 +23,28 @@ test:
   permalink: /test
   description: test tag description
 
+new:
+  label: New
+  permalink: /new
+  description: New tag description
+
+howto:
+  label: How To
+  permalink: /howto
+  description: Howto tag description
+
+AWS:
+  label: Aws
+  permalink: /AWS
+  description: Aws tag description
+
+S3:
+  label: S3
+  permalink: /S3
+  description: S3 tag description
+
+Storage:
+  label: Storage
+  permalink: /Storage
+  description: Storage tag description
+

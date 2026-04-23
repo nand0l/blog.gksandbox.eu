@@ -1,55 +1,36 @@
-# Website
+# blog.gksandox.eu
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-## Installation
-
-I used the [Itrocuction](https://docusaurus.io/docs) at this sit to get me started.
-
-```bash
-npx create-docusaurus@latest my-website-demo classic --typescript
-```
-
-where `my-website-demo` is the folder where you want to deploy your local code
+A blog-only site built with [Docusaurus 3](https://docusaurus.io/), deployed on AWS Amplify.
 
 ## Local Development
 
-T start the site for local development run:
-
-```bash
+```powershell
+npm install
 npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Starts the dev server at `http://localhost:4505`. Changes are reflected live.
 
-## Remote Repository
+## Build
 
-I created a private rpository on github and in itialized the local folder:
-
-```bash
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/nand0l/blog.gksandbox.eu.git
-git push -u origin main
-```
-
-## local build test
-
-```bash
+```powershell
 npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static output to the `/build` directory.
 
 ## Deployment
 
-I will use AWS Amplify to host this app in:  
-AWS-account:730335671157  
-Account name: gksandbox.eu  
-Region:  
-AppID:  
-AmplifyURL:  
-CustomURL:   
+Automatically deployed via AWS Amplify on push to `main`.
+
+| | |
+|---|---|
+| AWS Account | 730335671157 (gksandbox.eu) |
+| Region | eu-central-1 |
+| App ID | d1yua5h71rzrfm |
+| Amplify URL | https://main.d1yua5h71rzrfm.amplifyapp.com/ |
+| Custom URL | https://blog.gksandbox.eu/ |
+
+## Repository
+
+https://github.com/nand0l/blog.gksandbox.eu
